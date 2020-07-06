@@ -8,7 +8,7 @@ exports.eejsBlock_styles = function (hook_name, args, cb) {
 exports.clientVars = function  (hook, context, callback){
     return callback({
         ep_custom_header_message: {
-            message :  " hello "
+            message :  " we can't finish docs.plus without your help: <a href='https://patreon.com/docsplus'>https://patreon.com/docsplus </a> "
         }
     });
 }
