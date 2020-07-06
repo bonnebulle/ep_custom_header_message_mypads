@@ -8,8 +8,10 @@ exports.aceInitialized = function(hook, context){
         $("#ep_custom_header_close").bind('click', function(e){
             console.log('click');
             $("#ep_custom_header").fadeOut()
-            
+            $("#wrtc_modal").css({"top" : 0})
+
         });
+        $("#wrtc_modal").css({"top" : '5%'})
     },120000);
    
 }
