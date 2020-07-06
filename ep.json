@@ -1,0 +1,17 @@
+{
+	"parts":[
+		{
+			"name":"custom_header_message",
+			"client_hooks":{
+				"postAceInit":"ep_custom_header_message/static/js/index",
+				"aceInitialized":"ep_custom_header_message/static/js/index"
+				
+			},
+			"hooks":{
+				"eejsBlock_styles": "ep_custom_header_message/index",
+				"clientVars": "ep_custom_header_message/index"
+
+			}
+		}
+	]
+}
