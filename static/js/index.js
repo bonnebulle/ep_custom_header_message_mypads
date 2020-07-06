@@ -11,7 +11,7 @@ exports.aceInitialized = function(hook, context){
             $("#wrtc_modal").css({"top" : 0})
 
         });
-        $("#wrtc_modal").css({"top" : '5%'})
+        $("#wrtc_modal").css({"top" : '4%'})
     },120000);
    
 }
