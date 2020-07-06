@@ -16,3 +16,12 @@
     vertical-align: middle;
     display: table-cell;
 }
+#ep_custom_header_close {
+    color: #fff;
+    font-size: 14pt;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    vertical-align: middle;
+    display: table-cell;
+}
