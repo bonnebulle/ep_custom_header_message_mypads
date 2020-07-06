@@ -5,7 +5,6 @@
     top: 0;
     background-color: #d70022;
     display: table;
-    
 }
 .ep_custom_header_text {
     color: #fff;
@@ -24,4 +23,5 @@
     align-self: center;
     vertical-align: middle;
     display: table-cell;
+    cursor: pointer;
 }
