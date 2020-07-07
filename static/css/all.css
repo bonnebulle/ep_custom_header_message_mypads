@@ -5,6 +5,7 @@
     top: 0;
     background-color: #78a5f7 ;
     display: table;
+    z-index: 999999;
 }
 .ep_custom_header_text {
     color: #fff;
