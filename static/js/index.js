@@ -12,7 +12,7 @@ exports.aceInitialized = function(hook, context){
 
         });
         $("#wrtc_modal").css({"top" : '4%'})
-    },1200);
+    },120000);
    
 }
 
