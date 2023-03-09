@@ -8,7 +8,7 @@ exports.eejsBlock_styles = function (hook_name, args, cb) {
 exports.clientVars = function  (hook, context, callback){
     return callback({
         ep_custom_header_message: {
-            message :  "<b> docs.plus is <a target='_blank' href='https://github.com/nwspk/docs.plus'>free and open source,</a> please help us stay online: <a  target='_blank' href='https://patreon.com/docsplus'>patreon.com/docsplus </a> </b>"
+            message :  "<b> Pour les pads privés c'est par ici <a target='_blank' href='https://pad.bonnebulle.xyz/mypads/?'>MyPads</a> </b>"
         }
     });
 }
